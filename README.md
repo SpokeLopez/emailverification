@@ -21,7 +21,7 @@ Este módulo añade un sistema de verificación de correo electrónico al proces
    ```
 
 2. **Instala el módulo desde el backoffice de PrestaShop:**
-   - Ve a "Módulos > Módulos y servicios".
+   - Ve a "Módulos > Administrador de módulos".
    - Busca "emailverification" y haz clic en "Instalar".
 
    **O instala desde consola:**
