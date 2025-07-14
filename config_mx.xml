@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>emailverification</name>
+    <displayName><![CDATA[Email Verification]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[Sistema de verificaci&oacute;n de email para nuevos registros]]></description>
+    <author><![CDATA[HAMO Team]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+</module>

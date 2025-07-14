@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta verificada - {SHOP_NAME}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #d4edda;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .content {
+            background-color: #ffffff;
+            padding: 30px;
+            border: 1px solid #dee2e6;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 5px 5px;
+            font-size: 12px;
+            color: #6c757d;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .btn:hover {
+            background-color: #218838;
+        }
+        .success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>✅ ¡Cuenta Verificada!</h1>
+    </div>
+    <div class="content">
+        <h2>¡Hola {CUSTOMER_FIRSTNAME} {CUSTOMER_LASTNAME}!</h2>
+
+        <div class="success">
+            <strong>¡Tu cuenta ha sido verificada exitosamente!</strong>
+        </div>
+
+        <p>Ya puedes acceder a tu cuenta y disfrutar de todos los servicios de {SHOP_NAME}.</p>
+
+        <div style="text-align: center;">
+            <a href="{ACCOUNT_LINK}" class="btn">Acceder a mi cuenta</a>
+        </div>
+
+        <p>¡Bienvenido a {SHOP_NAME}!</p>
+
+        <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarnos.</p>
+    </div>
+
+    <div class="footer">
+        <p>Este es un mensaje automático de {SHOP_NAME}. Por favor no respondas a este email.</p>
+        <p>¡Gracias por elegirnos!</p>
+    </div>
+</body>
+</html>

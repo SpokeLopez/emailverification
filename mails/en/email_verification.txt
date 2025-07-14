@@ -1,0 +1,14 @@
+Hola {CUSTOMER_FIRSTNAME} {CUSTOMER_LASTNAME},
+
+Gracias por registrarte en {SHOP_NAME}.
+
+Para completar tu registro y activar tu cuenta, por favor haz clic en el siguiente enlace:
+
+{VERIFICATION_LINK}
+
+Este enlace expirará en {EXPIRES_IN}.
+
+Si no solicitaste esta cuenta, puedes ignorar este mensaje.
+
+Saludos,
+El equipo de {SHOP_NAME}

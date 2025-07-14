@@ -1,0 +1,12 @@
+¡Hola {CUSTOMER_FIRSTNAME} {CUSTOMER_LASTNAME}!
+
+¡Tu cuenta ha sido verificada exitosamente!
+
+Ya puedes acceder a tu cuenta y disfrutar de todos los servicios de {SHOP_NAME}.
+
+Para acceder a tu cuenta, visita: {ACCOUNT_LINK}
+
+¡Bienvenido a {SHOP_NAME}!
+
+Saludos,
+El equipo de {SHOP_NAME} 
